@@ -6,10 +6,23 @@ body {
 h1 {
   text-align: left;
   color: #ffffff;
+  /* background-image: url(https://wallpaperaccess.com/full/656336.png); */
   padding: 30px;
   margin: 10px;
   white-space: pre-wrap;
   /* background-color: #0c233b; */
+  background-color: #030f1c;
+  /* background-image: linear-gradient(to bottom, #00527a, #030f1c); */
+  /* background-image: conic-gradient(from 90deg, #0c233b, #00527a); */
+  /* background-image: radial-gradient(circle at center, #0c233b, #00527a);*/
+}
+
+h2 {
+  text-align: left;
+  color: #ffffff;
+  padding: 30px;
+  margin: 10px;
+  white-space: pre-wrap;
   background-color: #030f1c;
 }
 
@@ -17,10 +30,13 @@ p {
   text-align: justify;
   color: #9e9e9e;
   margin: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding: 10px;
   /* background-color: #cfcfcf;
   border-radius: 10px; */
   line-height: 1.3;
+  clear: left;
 }
 
 .purple-dot {
@@ -48,11 +64,33 @@ p {
   transition-duration: 0.4s;
   margin: 40px;
   cursor: pointer;
+  /* border: 10px solid #000000; */
   float: left;
   font-size: 16px;
 }
 
+.button2 {
+  font-family: 'JetBrains Mono';
+  text-decoration: underline solid #c74343 1px;
+  background-color: #030f1c; /* Green */
+  color: white;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: right;
+  font-size: 16px;
+}
+
+.button2:hover {
+  /*background-color: rgb(255, 255, 255);*/
+  color: #546cc9;
+  text-decoration: underline solid #c74343 4px;
+}
+
 .button1:hover {
+  /*background-color: rgb(255, 255, 255);*/
   color: #546cc9;
   text-decoration: underline solid #c74343 4px;
 }
@@ -63,6 +101,11 @@ hr.solid {
 
 a {
   margin: 40px;
-  color: #E879F9;
+  color: #E879F9; /* Your desired link color */
   text-decoration: none;
+}
+
+.solutions-container {
+  display: flex;
+  align-items: center;
 }
