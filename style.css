@@ -14,27 +14,30 @@ header {
 	border-right: 2px solid #ddd;
 	border-radius: 0px 0px 10px 0px;
 }
+.purple-dot {
+  	color: #E879F9;
+}
 
 header a {
-    	text-decoration: none;
-    	color: #ddd;
-    	font-weight: 500;
+    text-decoration: none;
+    color: #ddd;
+    font-weight: 500;
 }
 .hero {
-    	text-align: center;
-    	padding: 20px 20px;
-    	background-color: black;
+	text-align: center;
+	padding: 20px 20px;
+	background-color: black;
 }
 .hero h1 {
-    	font-size: 48px;
-    	margin: 0;
+	font-size: 48px;
+	margin: 0;
 }
 .hero p {
 	align-items: center;
-    	font-size: 18px;
-    	margin: 0px;
+	font-size: 18px;
+	margin: 0px;
 	margin-top: 120px;
-    	color: gray;
+    color: gray;
 }
 
 h2 {
@@ -64,15 +67,15 @@ p:hover {
 
 .hero button {
 	margin: 10px;
-    	padding: 10px 20px;
-    	font-size: 18px;
-    	font-family: 'Inter';
-    	background-color: gray;
-    	color: #ddd;
-    	border: none;
-    	cursor: pointer;
-    	transition: 0.5s;
-    	border-radius: 10px;
+    padding: 10px 20px;
+ 	font-size: 18px;
+   	font-family: 'Inter';
+   	background-color: gray;
+   	color: #ddd;
+   	border: none;
+   	cursor: pointer;
+   	transition: 0.5s;
+   	border-radius: 10px;
 }
 
 .hero button:hover {
@@ -91,11 +94,11 @@ p:hover {
     	max-width: 100%;
     	height: auto;
 }
-footer {
-    	background-color: #000000;
-    	padding: 20px;
-    	text-align: center;
-    	border-top: 1px solid #ddd;
+footer {    	
+	background-color: #000000;
+    adding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
 }
 
 .container {
